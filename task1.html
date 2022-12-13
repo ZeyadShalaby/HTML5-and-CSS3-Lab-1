@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task1</title>
+    <link rel="stylesheet" href="task1.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="video">
+        
+            <video src="video.mp4" type="video" id="vid1"> </video>
+        
+            <div class="controls">
+              
+                <div class="playbar">
+         
+                    <div class="bar">
+                        <input type="range" min="0" max="100" id="timestamp" class="slider" value ="0" step="1">
+                    </div>
+         
+                </div>
+
+                <div class="buttons">
+         
+                    <button id="play">Play</button>
+                    <button id="pause">Pause</button> 
+                    <button id="toRight2">&lt;&lt;</button>
+                    <button id="toRight1">&lt;</button>
+                    <button id="toLeft1">&gt;</button>
+                    <button id="toLeft2">&gt;&gt;</button>
+                    <button id="mute">Mute</button>
+                    <input type="range" min="0" max="100" id="volume" class="slider" value ="100" >
+
+         
+                </div>
+                <button id="speed">Control Speed</button>
+                <input type="range" min="0" max="100" id="speed" class="slider" value ="100" step="1">
+                
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="task1.js"></script>
+</html>
